@@ -14,7 +14,3 @@ Exercicios para estudo da linguagem elixir.
 
   - Verifica se o número é par ou impar.
 
-
----
-
-É nois.
