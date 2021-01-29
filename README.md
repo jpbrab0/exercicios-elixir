@@ -2,15 +2,44 @@
 
 Exercicios para estudo da linguagem elixir.
 
+## Rodando projeto:
+
+Clone o repositório em sua maquina local:
+
+```git
+git clone https://github.com/jpbrab0/exercicios-elixir.git
+```
+
+
+Dentro do diretorio do projeto, rode `iex` para entrar no "Elixir's Interactive Shell"
+
+Compile o arquivo "exercises.ex":
+```elixir
+iex(1)> c("lib/exercises.ex")
+```
+
+Depois rode:
+
+```elixir
+iex(2)> Exercises.<nome da função>(parametro)
+```
+
+## Funções executaveis:
+
 1. Exercicio: 
 
 * Conversor de Temperatura
   
   - Converte Celsius para fahrenheit e vice versa.
-
+  - Ex: `celsius_to_fahrenheit(<numero>)` ou `fahrenheit_to_celsiuis(<numero>)`
 2. Exercicio:
 
 * Número par ou impar
 
   - Verifica se o número é par ou impar.
+  - Ex: `number_odd_or_pair(<numero>)`
 
+* Github Search
+
+  -
+  - Ex: `github_user_info(<nome do usuario no github>)`
