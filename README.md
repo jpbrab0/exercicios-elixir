@@ -39,6 +39,8 @@ iex(2)> Exercises.<nome da função>(parametro)
   - Verifica se o número é par ou impar.
   - Ex: `number_odd_or_pair(<numero>)`
 
+3. Exercicio:
+
 * Github Search
 
   - Busca um usuário no github, e retorna os dados de seu perfil.
