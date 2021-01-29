@@ -41,5 +41,5 @@ iex(2)> Exercises.<nome da função>(parametro)
 
 * Github Search
 
-  -
+  - Busca um usuário no github, e retorna os dados de seu perfil.
   - Ex: `github_user_info(<nome do usuario no github>)`
