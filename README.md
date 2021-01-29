@@ -10,6 +10,10 @@ Clone o repositório em sua maquina local:
 git clone https://github.com/jpbrab0/exercicios-elixir.git
 ```
 
+Instalando as dependencias do projeto:
+```git
+mix deps.get
+```
 
 Dentro do diretorio do projeto, rode `iex -S mix` para entrar no "Elixir's Interactive Shell com as depedencias do projeto."
 
