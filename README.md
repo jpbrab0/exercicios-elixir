@@ -15,7 +15,7 @@ Instalando as dependencias do projeto:
 mix deps.get
 ```
 
-Dentro do diretorio do projeto, rode `iex -S mix` para entrar no "Elixir's Interactive Shell com as depedencias do projeto."
+Dentro do diretorio do projeto, rode `iex -S mix` para entrar no "Elixir's Interactive Shell" com as depedencias do projeto.
 
 Compile o arquivo "exercises.ex":
 ```elixir
