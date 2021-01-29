@@ -11,7 +11,7 @@ git clone https://github.com/jpbrab0/exercicios-elixir.git
 ```
 
 
-Dentro do diretorio do projeto, rode `iex` para entrar no "Elixir's Interactive Shell"
+Dentro do diretorio do projeto, rode `iex -S mix` para entrar no "Elixir's Interactive Shell com as depedencias do projeto."
 
 Compile o arquivo "exercises.ex":
 ```elixir
