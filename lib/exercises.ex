@@ -5,16 +5,16 @@ defmodule Exercises do
   plug Tesla.Middleware.Headers, [{"user-agent", "elixir"}]
   plug Tesla.Middleware.JSON
   def celsius_to_fahrenheit(num) do 
-    IO.puts (num*9/5) + 32
+    (num*9/5) + 32   
   end
   def fahrenheit_to_celsius(num) do 
-    IO.puts (num-32)*5/9
+    (num-32)*5/9
   end
-  def number_odd_or_pair(num) do
+  def number_odd_or_even(num) do
     if rem(num,2) == 0 do
-      IO.puts "This number is pair."
+      "This number is even."
       else 
-        IO.puts "This number is odd."
+        "This number is odd."
     end
   end
   def github_user_info(user) do 
