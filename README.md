@@ -59,3 +59,10 @@ mix test
   - Busca um usuário no github, e retorna os dados de seu perfil.
   - Ex: `github_user_info(<nome do usuario no github>)`
 
+4. Exercicio:
+
+* Calculo de IMC
+
+  - Verifica se seu peso está normal.
+  - Ex: `calc_imc(<nome>, <altura>, <peso>)`
+
