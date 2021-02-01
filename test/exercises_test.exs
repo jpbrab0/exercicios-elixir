@@ -15,4 +15,7 @@ defmodule ExercisesTest do
     {:ok, response} = Exercises.github_user_info("jpbrab0")
     assert response.status == 200
   end
+  test "Check if the weight is above the indicated." do 
+    assert Exercises.calc_imc("João", 1.50, 50) == "João, your weight is normal."
+  end
 end
