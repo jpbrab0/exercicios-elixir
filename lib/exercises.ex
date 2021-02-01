@@ -20,4 +20,12 @@ defmodule Exercises do
   def github_user_info(user) do 
     get("/users/" <> user)
   end
+  def calc_imc(name, weight, height) do 
+    imc = height / (weight*weight)
+    if imc >= 30 do
+      "#{name}, are you overweight."
+      else
+        "#{name}, your weight is normal."
+    end
+  end
 end
