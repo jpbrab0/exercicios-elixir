@@ -28,4 +28,10 @@ defmodule Exercises do
         "#{name}, your weight is normal."
     end
   end
+  def regressive_count(start_count,end_count) do
+    for x <- end_count..start_count do 
+      IO.puts x - 1     
+    end
+    "Finished count."
+  end
 end
