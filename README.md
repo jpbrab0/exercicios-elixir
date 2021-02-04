@@ -66,3 +66,8 @@ mix test
   - Verifica se seu peso está normal.
   - Ex: `calc_imc(<nome>, <altura>, <peso>)`
 
+5. Exercicio:
+
+* Contagem regressiva
+  - Faz uma Contagem regressiva entre 2 números.
+  - Ex: `countdown(<inicio da contagem>, <término da contagem>)`
