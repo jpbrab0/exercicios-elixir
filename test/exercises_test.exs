@@ -18,4 +18,7 @@ defmodule ExercisesTest do
   test "Check if the weight is above the indicated." do 
     assert Exercises.calc_imc("João", 1.50, 50) == "João, your weight is normal."
   end
+  test "Checking if the countdown worked" do 
+    assert Exercises.countdown(0,11) == "Finished countdown."
+  end
 end
