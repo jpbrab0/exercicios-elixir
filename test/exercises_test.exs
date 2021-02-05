@@ -27,4 +27,7 @@ defmodule ExercisesTest do
   test "Validate cpf" do 
     assert Exercises.validate_cpf("142.340.300-23") == "This cpf is valid"
   end
+  test "Validate cep" do 
+    assert Exercises.validate_cep("12345-000") == "This cep is valid"
+  end
 end
