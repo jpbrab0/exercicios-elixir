@@ -42,4 +42,11 @@ defmodule Exercises do
     |> Regex.scan(string)
     |> Enum.count()
   end
+  def validate_cpf(cpf) do 
+    if @regex_cpf |> Regex.match?(cpf) do 
+      "This cpf is valid"
+      else
+        "This cpf is invalid"
+    end
+  end 
 end
