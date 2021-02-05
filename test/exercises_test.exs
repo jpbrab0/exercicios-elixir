@@ -24,4 +24,7 @@ defmodule ExercisesTest do
   test "Vowels count of string" do 
     assert Exercises.count_vowels("salve galera") == 5
   end
+  test "Validate cpf" do 
+    assert Exercises.validate_cpf("142.340.300-23") == "This cpf is valid"
+  end
 end
