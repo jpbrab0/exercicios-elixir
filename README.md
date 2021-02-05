@@ -71,3 +71,9 @@ mix test
 * Contagem regressiva
   - Faz uma Contagem regressiva entre 2 números.
   - Ex: `countdown(<inicio da contagem>, <término da contagem>)`
+
+6. Exercicio:
+
+* Contar vogais
+  - Faz uma contagem das vogais existentes em uma string.
+  - Ex: `count_vowels(<string>)`
