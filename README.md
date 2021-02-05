@@ -83,3 +83,9 @@ mix test
 * Validar cpf
   - Função para ver se um cpf é valido.
   - Ex: `validate_cpf(<cpf entre aspas>)`
+
+8. Exercicio:
+
+* Validar cep
+  - Função para ver se um cep é valido.
+  - Ex: `validate_cep(<cep entre aspas>)`
