@@ -1,5 +1,8 @@
 defmodule Exercises do
   use Tesla
+  @vowels ~r/(a|e|i|o|u)/i
+  @regex_cpf ~r/^[(0-9)]{3}.[(0-9)]{3}.[(0-9)]{3}-[(0-9)]{2}/
+  @regex_cep ~r/^([0-9]){2}([0-9]){3}.-([0-9]){2}[^A-Z]$/
 
   plug Tesla.Middleware.BaseUrl, "https://api.github.com"
   plug Tesla.Middleware.Headers, [{"user-agent", "elixir"}]
@@ -33,5 +36,10 @@ defmodule Exercises do
       IO.puts x - 1     
     end
     "Finished countdown."
+  end
+  def count_vowels(string) do
+    @vowels 
+    |> Regex.scan(string)
+    |> Enum.count()
   end
 end
