@@ -77,3 +77,9 @@ mix test
 * Contar vogais
   - Faz uma contagem das vogais existentes em uma string.
   - Ex: `count_vowels(<string>)`
+
+7. Exercicio:
+
+* Validar cpf
+  - Função para ver se um cpf é valido.
+  - Ex: `validate_cpf(<cpf entre aspas>)`
