@@ -2,7 +2,7 @@ defmodule Exercises do
   use Tesla
   @vowels ~r/(a|e|i|o|u)/i
   @regex_cpf ~r/^[(0-9)]{3}.[(0-9)]{3}.[(0-9)]{3}-[(0-9)]{2}/
-  @regex_cep ~r/^([0-9]){2}([0-9]){3}.-([0-9]){2}[^A-Z]$/
+  @regex_cep ~r/^([0-9]){2}([0-9]){2}.-([0-9]){2}[^A-Z]$/
 
   plug Tesla.Middleware.BaseUrl, "https://api.github.com"
   plug Tesla.Middleware.Headers, [{"user-agent", "elixir"}]
@@ -49,4 +49,11 @@ defmodule Exercises do
         "This cpf is invalid"
     end
   end 
+  def validate_cep(cep) do 
+    if @regex_cep |> Regex.match?(cep) do 
+      "This cep is valid"
+      else
+        "This cep is invalid"
+    end
+  end
 end
