@@ -21,4 +21,7 @@ defmodule ExercisesTest do
   test "Checking if the countdown worked" do 
     assert Exercises.countdown(0,11) == "Finished countdown."
   end
+  test "Vowels count of string" do 
+    assert Exercises.count_vowels("salve galera") == 5
+  end
 end
