@@ -3,7 +3,7 @@ defmodule Exercises do
   @vowels ~r/(a|e|i|o|u)/i
   @regex_cpf ~r/^[(0-9)]{3}.[(0-9)]{3}.[(0-9)]{3}-[(0-9)]{2}/
   @regex_cep ~r/^([0-9]){2}([0-9]){2}.-([0-9]){2}[^A-Z]$/
-
+  @decoder ~r/WUB/
   plug Tesla.Middleware.BaseUrl, "https://api.github.com"
   plug Tesla.Middleware.Headers, [{"user-agent", "elixir"}]
   plug Tesla.Middleware.JSON
@@ -55,5 +55,9 @@ defmodule Exercises do
       else
         "This cep is invalid"
     end
+  end
+  def songdecoder(song) do 
+    # - Exercise of CodeWars(https://www.codewars.com/kata/551dc350bf4e526099000ae5)
+    song |> String.split(@decoder) |> Enum.join(" ")
   end
 end
