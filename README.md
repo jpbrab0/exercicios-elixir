@@ -1,6 +1,6 @@
-# Exercicios de elixir.
+# Exercícios de elixir.
 
-Exercicios para estudo da linguagem elixir.
+Exercícios para estudo da linguagem elixir.
 
 ## Rodando projeto:
 
@@ -39,58 +39,58 @@ mix test
 
 ## Funções executaveis:
 
-1. Exercicio: 
+1. Exercício: 
 
 * Conversor de Temperatura
   
   - Converte Celsius para fahrenheit e vice versa.
   - Ex: `celsius_to_fahrenheit(<numero>)` ou `fahrenheit_to_celsius(<numero>)`
-2. Exercicio:
+2. Exercício:
 
 * Número par ou impar
 
   - Verifica se o número é par ou impar.
   - Ex: `number_odd_or_even(<numero>)`
 
-3. Exercicio:
+3. Exercício:
 
 * Github Search
 
   - Busca um usuário no github, e retorna os dados de seu perfil.
   - Ex: `github_user_info(<nome do usuario no github>)`
 
-4. Exercicio:
+4. Exercício:
 
 * Calculo de IMC
 
   - Verifica se seu peso está normal.
   - Ex: `calc_imc(<nome>, <altura>, <peso>)`
 
-5. Exercicio:
+5. Exercício:
 
 * Contagem regressiva
   - Faz uma Contagem regressiva entre 2 números.
   - Ex: `countdown(<inicio da contagem>, <término da contagem>)`
 
-6. Exercicio:
+6. Exercício:
 
 * Contar vogais
   - Faz uma contagem das vogais existentes em uma string.
   - Ex: `count_vowels(<string>)`
 
-7. Exercicio:
+7. Exercício:
 
 * Validar cpf
   - Função para ver se um cpf é valido.
   - Ex: `validate_cpf(<cpf entre aspas>)`
 
-8. Exercicio:
+8. Exercício:
 
 * Validar cep
   - Função para ver se um cep é valido.
   - Ex: `validate_cep(<cep entre aspas>)`
 
-9. Exercicio:
+9. Exercício:
 
 * Decodificador de som
   - Função para decodificar o som do dj. Desafio do [CodeWars](https://www.codewars.com/kata/551dc350bf4e526099000ae5)
