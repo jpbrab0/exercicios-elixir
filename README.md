@@ -89,3 +89,9 @@ mix test
 * Validar cep
   - Função para ver se um cep é valido.
   - Ex: `validate_cep(<cep entre aspas>)`
+
+9. Exercicio:
+
+* Decodificador de som
+  - Função para decodificar o som do dj. Desafio do [CodeWars](https://www.codewars.com/kata/551dc350bf4e526099000ae5)
+  - Ex: `songdecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")`
