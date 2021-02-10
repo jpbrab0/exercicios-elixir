@@ -1,4 +1,5 @@
 defmodule ExercisesTest do
+  
   use ExUnit.Case
   doctest Exercises
 
@@ -31,6 +32,7 @@ defmodule ExercisesTest do
     assert Exercises.validate_cep("12345-000") == "This cep is valid"
   end
   test "Test song decoder" do 
-    assert Exercises.songdecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB") == " WE ARE  THE CHAMPIONS MY FRIEND "
+    assert Exercises.songdecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB") == "WE ARE THE CHAMPIONS MY FRIEND"
   end
+
 end
