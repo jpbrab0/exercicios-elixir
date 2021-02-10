@@ -93,5 +93,5 @@ mix test
 9. Exercício:
 
 * Decodificador de som
-  - Função para decodificar o som do dj. Desafio do [CodeWars](https://www.codewars.com/kata/551dc350bf4e526099000ae5)
+  - Função para decodificar o remix do dj. Desafio do [CodeWars](https://www.codewars.com/kata/551dc350bf4e526099000ae5)
   - Ex: `songdecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")`
